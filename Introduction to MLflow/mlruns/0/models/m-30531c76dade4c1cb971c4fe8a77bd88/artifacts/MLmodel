@@ -1,0 +1,33 @@
+artifact_path: file:c:/Users/USER/Documents/FelicityTech/Machine-Learning-Engineer/Introduction
+  to MLflow/mlruns/0/models/m-30531c76dade4c1cb971c4fe8a77bd88/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.11.1
+model_id: m-30531c76dade4c1cb971c4fe8a77bd88
+model_size_bytes: 586
+model_uuid: m-30531c76dade4c1cb971c4fe8a77bd88
+prompts: null
+run_id: 6ba0cf57b12b4c4ab1dea2b93e1bdb8d
+signature:
+  inputs: '[{"type": "long", "name": "experience", "required": true}, {"type": "long",
+    "name": "age", "required": true}, {"type": "double", "name": "interview_score",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-04-25 08:48:06.110150'
