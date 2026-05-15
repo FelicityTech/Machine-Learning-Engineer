@@ -1,0 +1,24 @@
+artifact_path: file:c:/Users/USER/Documents/FelicityTech/Machine-Learning-Engineer/Projects/London
+  Weather Prediction/mlruns/1/models/m-1bc6f949473b4adbb7456abd56be15c0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-1bc6f949473b4adbb7456abd56be15c0
+model_size_bytes: 423395136
+model_uuid: m-1bc6f949473b4adbb7456abd56be15c0
+prompts: null
+run_id: 85e80c2197c241fca32b09a757b0e266
+utc_time_created: '2026-05-15 17:16:01.057408'
